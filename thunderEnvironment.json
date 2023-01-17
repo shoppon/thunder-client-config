@@ -1,0 +1,413 @@
+[
+  {
+    "_id": "4ba2edc4-f078-4f53-9fd8-5792734019f0",
+    "name": "osinos",
+    "default": false,
+    "sortNum": 10000,
+    "created": "2021-07-19T11:53:22.976Z",
+    "modified": "2022-11-09T09:15:07.266Z",
+    "data": [
+      {
+        "name": "ingress",
+        "value": "10.20.0.4"
+      },
+      {
+        "name": "ingress_bak",
+        "value": "keystone-api.openstack.svc.cluster.local"
+      },
+      {
+        "name": "PROJECT_ID",
+        "value": "b55f5760b037414ebcbb3c1e3d8672b8"
+      },
+      {
+        "name": "TOKEN",
+        "value": "gAAAAABjqWco6GgrjYH7Xjnd7KIcfH4Pmmu4ykUGXxILEqyhxAs2_YGkSNVhcyF_pehMFwrIs2BBPnIB47Ox5VafSPpTyMSp2IQ9XfnKdg11_WMKrzAyk5OR1iyLDh8Rxy_KZG7evNf6abry-oMGL1QGOKhewzATQZdd4P1PN8NngkPvreSxxVk"
+      },
+      {
+        "name": "VOLUME_ID",
+        "value": "b4571013-f1b9-4cd8-9b57-b375bba29446"
+      },
+      {
+        "name": "localhost",
+        "value": "127.0.0.1"
+      },
+      {
+        "name": "schema",
+        "value": "http"
+      },
+      {
+        "name": "backup_id",
+        "value": "54c4546f-1c79-4fbe-ae90-d3845deede50"
+      },
+      {
+        "name": "REPO_ID",
+        "value": "c960daa7a56d5036bb4ee5049e6d6a41666f833ff13e651d08ac22236b64c0fa"
+      },
+      {
+        "name": "golem_port",
+        "value": "8192"
+      },
+      {
+        "name": "GOLEM_URI",
+        "value": "127.0.0.1:8192"
+      },
+      {
+        "name": "AK",
+        "value": "48abfabe80bf46e59dd64f860a6ffe3f"
+      },
+      {
+        "name": "SK",
+        "value": "794b8002f95442fa9eb57a8e075bf145"
+      },
+      {
+        "name": "CINDER_URL",
+        "value": "10.20.0.4"
+      },
+      {
+        "name": "NOVA_URL",
+        "value": "127.0.0.1:8774"
+      },
+      {
+        "name": "USER_ID",
+        "value": "3bdb97e4ee6242459be4608812c482a1"
+      },
+      {
+        "name": "THOR_ID",
+        "value": "a7eda06553104573918d46a701799d6b"
+      },
+      {
+        "name": "CEPH_URL",
+        "value": "10.20.0.4:8080"
+      },
+      {
+        "name": "CEPH_TOKEN",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjZXBoLWRhc2hib2FyZCIsImlhdCI6MTY1MDc4OTIxNywidXNlcm5hbWUiOiJhZG1pbiIsImp0aSI6IjU3NjA4OTY4LTAwYjMtNGM2MS05OGNmLTM4MGIyNzRmODAyOCIsImV4cCI6MTY1MDgxODAxN30.ZgkUKffIysS-FrTrkVI48apAHLXhmx7Lzq71BZwkSaQ"
+      },
+      {
+        "name": "PROMETHEUS_URL",
+        "value": "10.20.0.6:30900"
+      },
+      {
+        "name": "CEPH_PROMETHEUS_URL",
+        "value": "127.0.0.1:9283"
+      },
+      {
+        "name": "MANUL_URL",
+        "value": "10.20.0.4/alcubierre_manul"
+      }
+    ]
+  },
+  {
+    "_id": "a8fbb6e7-921d-42b6-be77-10872edb986e",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -1,
+    "created": "2022-01-14T10:27:05.941Z",
+    "modified": "2022-01-14T10:27:05.941Z",
+    "data": []
+  },
+  {
+    "_id": "d68158da-c7db-4cd0-b9ef-aa212ff81bd9",
+    "name": "curl",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-09-15T07:39:14.362Z",
+    "modified": "2022-09-16T03:44:51.537Z",
+    "data": [
+      {
+        "name": "PROJECT_ID",
+        "value": "${p}"
+      },
+      {
+        "name": "TOKEN",
+        "value": "${t}"
+      },
+      {
+        "name": "schema",
+        "value": "https"
+      },
+      {
+        "name": "CINDER_URL",
+        "value": "${u}"
+      },
+      {
+        "name": "ADMIN_PROJECT_ID",
+        "value": "${ap}"
+      },
+      {
+        "name": "VOLUME_ID",
+        "value": "${v}"
+      },
+      {
+        "name": "CONNECTOR",
+        "value": "${c}"
+      }
+    ]
+  },
+  {
+    "_id": "51a32bec-9986-47ba-ab1c-e90c7f617bfa",
+    "name": "(Local Env)",
+    "default": false,
+    "global": true,
+    "local": true,
+    "sortNum": -2,
+    "created": "2022-09-15T07:41:49.323Z",
+    "modified": "2022-09-15T07:41:49.323Z",
+    "data": []
+  },
+  {
+    "_id": "7fb0a410-52b4-4908-9bb8-ef888432135d",
+    "name": "local",
+    "default": false,
+    "sortNum": 15000,
+    "created": "2022-11-09T09:59:44.257Z",
+    "modified": "2022-11-09T10:00:01.086Z",
+    "data": [
+      {
+        "name": "ingress",
+        "value": "172.70.0.2"
+      },
+      {
+        "name": "ingress_bak",
+        "value": "keystone-api.openstack.svc.cluster.local"
+      },
+      {
+        "name": "PROJECT_ID",
+        "value": "04a4dc08ed5a46bf9fca6be7d66402c9"
+      },
+      {
+        "name": "TOKEN",
+        "value": "gAAAAABikEQiFhYmNOj2TJd58y-DK2SGvDomiQ-jPCQ3M2k3rvqPGE0DOZF4YkaWRjHSIZ7NtOlGG8fq4ssfyea08Hps8qRgJr9pyYMvMl5GvAcf0xgeqLzSaLB-ex5nLMikRrfW7v2DWk1CjrP-ToHPr4yG_odP_A"
+      },
+      {
+        "name": "VOLUME_ID",
+        "value": "b4571013-f1b9-4cd8-9b57-b375bba29446"
+      },
+      {
+        "name": "localhost",
+        "value": "127.0.0.1"
+      },
+      {
+        "name": "schema",
+        "value": "http"
+      },
+      {
+        "name": "backup_id",
+        "value": "54c4546f-1c79-4fbe-ae90-d3845deede50"
+      },
+      {
+        "name": "REPO_ID",
+        "value": "c960daa7a56d5036bb4ee5049e6d6a41666f833ff13e651d08ac22236b64c0fa"
+      },
+      {
+        "name": "cinder_port",
+        "value": "8776"
+      },
+      {
+        "name": "golem_port",
+        "value": "8192"
+      },
+      {
+        "name": "GOLEM_URI",
+        "value": "127.0.0.1:8192"
+      },
+      {
+        "name": "AK",
+        "value": "48abfabe80bf46e59dd64f860a6ffe3f"
+      },
+      {
+        "name": "SK",
+        "value": "794b8002f95442fa9eb57a8e075bf145"
+      },
+      {
+        "name": "CINDER_URL",
+        "value": "127.0.0.1:8776"
+      },
+      {
+        "name": "NOVA_URL",
+        "value": "127.0.0.1:8774"
+      },
+      {
+        "name": "USER_ID",
+        "value": "3bdb97e4ee6242459be4608812c482a1"
+      },
+      {
+        "name": "THOR_ID",
+        "value": "a7eda06553104573918d46a701799d6b"
+      },
+      {
+        "name": "CEPH_URL",
+        "value": "10.20.0.4:8080"
+      },
+      {
+        "name": "CEPH_TOKEN",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjZXBoLWRhc2hib2FyZCIsImlhdCI6MTY1MDc4OTIxNywidXNlcm5hbWUiOiJhZG1pbiIsImp0aSI6IjU3NjA4OTY4LTAwYjMtNGM2MS05OGNmLTM4MGIyNzRmODAyOCIsImV4cCI6MTY1MDgxODAxN30.ZgkUKffIysS-FrTrkVI48apAHLXhmx7Lzq71BZwkSaQ"
+      },
+      {
+        "name": "PROMETHEUS_URL",
+        "value": "10.20.0.6:30900"
+      },
+      {
+        "name": "CEPH_PROMETHEUS_URL",
+        "value": "127.0.0.1:9283"
+      },
+      {
+        "name": "EMLA_URL",
+        "value": "127.0.0.1:9091"
+      },
+      {
+        "name": "MANUL_URL",
+        "value": "127.0.0.1:8192"
+      }
+    ]
+  },
+  {
+    "_id": "7436cf06-0b6e-4a1c-a7df-285d8dcdd8d1",
+    "name": "nanjing",
+    "default": false,
+    "sortNum": 12500,
+    "created": "2022-12-01T08:58:56.216Z",
+    "modified": "2022-12-01T08:58:56.216Z",
+    "data": [
+      {
+        "name": "ingress",
+        "value": "172.70.0.2"
+      },
+      {
+        "name": "ingress_bak",
+        "value": "keystone-api.openstack.svc.cluster.local"
+      },
+      {
+        "name": "PROJECT_ID",
+        "value": "04a4dc08ed5a46bf9fca6be7d66402c9"
+      },
+      {
+        "name": "TOKEN",
+        "value": "gAAAAABikEQiFhYmNOj2TJd58y-DK2SGvDomiQ-jPCQ3M2k3rvqPGE0DOZF4YkaWRjHSIZ7NtOlGG8fq4ssfyea08Hps8qRgJr9pyYMvMl5GvAcf0xgeqLzSaLB-ex5nLMikRrfW7v2DWk1CjrP-ToHPr4yG_odP_A"
+      },
+      {
+        "name": "VOLUME_ID",
+        "value": "b4571013-f1b9-4cd8-9b57-b375bba29446"
+      },
+      {
+        "name": "localhost",
+        "value": "127.0.0.1"
+      },
+      {
+        "name": "schema",
+        "value": "http"
+      },
+      {
+        "name": "backup_id",
+        "value": "54c4546f-1c79-4fbe-ae90-d3845deede50"
+      },
+      {
+        "name": "REPO_ID",
+        "value": "c960daa7a56d5036bb4ee5049e6d6a41666f833ff13e651d08ac22236b64c0fa"
+      },
+      {
+        "name": "cinder_port",
+        "value": "8776"
+      },
+      {
+        "name": "golem_port",
+        "value": "8192"
+      },
+      {
+        "name": "GOLEM_URI",
+        "value": "127.0.0.1:8192"
+      },
+      {
+        "name": "AK",
+        "value": "48abfabe80bf46e59dd64f860a6ffe3f"
+      },
+      {
+        "name": "SK",
+        "value": "794b8002f95442fa9eb57a8e075bf145"
+      },
+      {
+        "name": "CINDER_URL",
+        "value": "127.0.0.1:8776"
+      },
+      {
+        "name": "NOVA_URL",
+        "value": "127.0.0.1:8774"
+      },
+      {
+        "name": "USER_ID",
+        "value": "3bdb97e4ee6242459be4608812c482a1"
+      },
+      {
+        "name": "THOR_ID",
+        "value": "a7eda06553104573918d46a701799d6b"
+      },
+      {
+        "name": "CEPH_URL",
+        "value": "10.20.0.4:8080"
+      },
+      {
+        "name": "CEPH_TOKEN",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjZXBoLWRhc2hib2FyZCIsImlhdCI6MTY1MDc4OTIxNywidXNlcm5hbWUiOiJhZG1pbiIsImp0aSI6IjU3NjA4OTY4LTAwYjMtNGM2MS05OGNmLTM4MGIyNzRmODAyOCIsImV4cCI6MTY1MDgxODAxN30.ZgkUKffIysS-FrTrkVI48apAHLXhmx7Lzq71BZwkSaQ"
+      },
+      {
+        "name": "PROMETHEUS_URL",
+        "value": "10.20.0.6:30900"
+      },
+      {
+        "name": "CEPH_PROMETHEUS_URL",
+        "value": "127.0.0.1:9283"
+      },
+      {
+        "name": "EMLA_URL",
+        "value": "127.0.0.1:9091"
+      },
+      {
+        "name": "MANUL_URL",
+        "value": "alcubierre-manul-api.alcubierre.svc.cluster.local"
+      }
+    ]
+  },
+  {
+    "_id": "a7572dd2-9530-485b-b7ad-85ef802830f3",
+    "name": "57",
+    "default": true,
+    "sortNum": 30000,
+    "created": "2022-12-30T06:41:40.405Z",
+    "modified": "2022-12-30T06:41:40.405Z",
+    "data": [
+      {
+        "name": "MANUL_URL",
+        "value": "172.57.0.2/alcubierre_manul"
+      },
+      {
+        "name": "schema",
+        "value": "http"
+      },
+      {
+        "name": "CINDER_URL",
+        "value": "cinder.openstack.svc.cluster.local:80"
+      },
+      {
+        "name": "PROJECT_ID",
+        "value": "37a4a2b29fd64b8c85ff1a357a1bc7cb"
+      },
+      {
+        "name": "VOLUME_ID",
+        "value": "8afdd050-de04-4e33-a3a5-79ac4d19df85"
+      },
+      {
+        "name": "TOKEN",
+        "value": "gAAAAABjtqAuSsnKpif3wSKsxFbNbADunb8i4BztZCfg2a0T0i5QD6ASCDs6hzYzpFtklEPRpGg4m1jaAXsp6jctSZUmVC25sJgE0Rl3sOwXld29yFbOdiPJWDndi6OrDMVGFoE_8VGHf9gkdTLfz8WRDLW1NkoXasanBYKwuZwjZW1TJUgbiMY"
+      },
+      {
+        "name": "ingress",
+        "value": "172.57.0.2"
+      },
+      {
+        "name": "PROMETHEUS_URL",
+        "value": "172.57.0.2:30900"
+      }
+    ]
+  }
+]
